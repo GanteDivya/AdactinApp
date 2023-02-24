@@ -44,6 +44,7 @@ namespace AdactinApp.Testcases
         [TearDown]
         public void Close()
         {
+            Console.WriteLine("Finally Executed");
             driver.Close();
         }
     }
